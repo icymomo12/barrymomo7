@@ -1,0 +1,116 @@
+.div1
+{
+	height: 300x;
+	width: 200px;
+	margin-right: 900px;
+	margin-left: 40px;
+	float: left;
+}
+
+.divvrai
+{
+	border: 2px solid red;
+	height: auto;
+	width: 1550px
+}
+
+.divfaux1
+{
+	border: 2px solid darkblue;
+	border-radius: 10px;
+	height: 300px;
+	width: 1500px;
+	margin-top: 20px;
+	margin-left: 20px;
+}
+
+.div2
+{
+	margin-top: 20px;
+}
+h1
+{
+	font-size: 44px;
+	text-align: left;
+}
+
+h2
+{
+	font-size: 20px;
+	text-align: left;
+}
+
+.divfaux2
+{
+	border: 2px solid darkblue;
+	border-radius: 10px;
+	height: 250px;
+	width: 1500px;
+	margin-top: 20px;
+	margin-left: 20px;
+}
+
+.div3
+{
+	height: 400x;
+	width: 300px;
+	margin-right: 300px;
+	margin-left: 40px;
+	float: left;
+}
+
+.div4
+{
+	margin-top: 110px;
+}
+
+
+.divfaux3
+{
+	border: 2px solid darkblue;
+	border-radius: 10px;
+	height: 300px;
+	width: 1500px;
+	margin-top: 20px;
+	margin-left: 20px;
+}
+
+.div5
+{
+	height: 400x;
+	width: 300px;
+	margin-right: 300px;
+	margin-left: 40px;
+	float: left;
+}
+
+.div6
+{
+	margin-top: 160px;
+}
+
+
+.divfaux4
+{
+	border: 2px solid darkblue;
+	border-radius: 10px;
+	height: 380px;
+	width: 1500px;
+	margin-top: 20px;
+	margin-left: 20px;
+	margin-bottom: 20px;
+}
+
+.div7
+{
+	height: 400px;
+	width: 300px;
+	margin-right: 300px;
+	margin-left: 40px;
+	float: left;
+}
+
+.div8
+{
+	margin-top: 210px;
+}

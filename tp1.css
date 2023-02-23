@@ -1,0 +1,21 @@
+
+button
+{
+    width: 300px;
+    height: 200px;
+    background-color: blue;
+    border: 2px solid red;
+    border-radius: 26px;
+    color: white;
+    font-size: 2em;
+
+}
+button:hover
+{
+    background-color: yellowgreen;
+    color: black;
+}
+.b1
+{
+    background-color: white;
+}

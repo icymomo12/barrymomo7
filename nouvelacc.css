@@ -1,0 +1,184 @@
+body
+{
+    font-family: Verdana, Calibri, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    background-image: url(wbb.webp);
+    background-size: 100%;
+}
+
+h1
+{
+    font-family: Verdana, Calibri, sans-serif;
+    font-size: 24px;
+    font-family: gold;
+    text-align: center;
+}
+
+h2
+{
+    font-family: Verdana, Calibri, sans-serif;
+    font-size: 24px;
+    font-family: gold;
+    text-align: center;
+}
+
+
+nav > ul
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+nav li
+{
+    list-style-type: none;
+}
+
+nav > ul > li
+{
+    float:left;
+    position: relative;
+}
+
+.submenu
+{
+    display: none;
+}
+
+nav input[type=checkbox]
+{
+    display: none;
+}
+
+.menu-mobile
+{
+    display: none;
+}
+
+nav
+{
+    width: fit-content;
+    background-color: rgb(29, 25, 44);
+}
+
+nav > ul::after
+{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+nav a
+{
+    display: inline-block;
+    text-decoration: none;
+}
+
+nav > ul > li > a
+{
+    padding: 20px 30px;
+    color: white;
+}
+
+nav li:hover .submenu
+{
+    display: inline-block;
+    position: absolute;
+    top: 100%;
+    left: 0px;
+    padding: 0px;
+    z-index: 100000;
+}
+
+.submenu li
+{
+    border-bottom: 1px solid #ccc;
+}
+
+.submenu li a 
+{
+    padding: 15px 30px;
+    font-size: 13px;
+    color: black;
+    width: 270px;
+}
+
+.menu-html:hover
+{
+    border-top: 5px solid violet;
+    background-color: aqua;
+}
+
+.menu-java:hover
+{
+    border-top: 5px solid violet;
+    background-color: aqua;
+}
+
+.menu-sql:hover
+{
+    border-top: 5px solid violet;
+    background-color: aqua;
+}
+
+.menu-mission:hover
+{
+    border-top: 5px solid violet;
+    background-color: aqua;
+}
+.menu-contact:hover
+{
+    border-top: 5px solid violet;
+    background-color: aqua;
+}
+
+nav > ul > li:hover a
+{
+    padding: 15px 30px 20px 30px;
+}
+
+.menu-html .submenu
+{
+    background-color: rgb(35, 1, 228);
+}
+
+.menu-java .submenu
+{
+    background-color: rgb(35, 1, 228);
+}
+
+.menu-sql .submenu
+{
+    background-color: rgb(35, 1, 228);
+}
+
+.menu-mission .submenu
+{
+    background-color: rgb(35, 1, 228);
+}
+
+.submenu li:hover a
+{
+    color: #EEE;
+    font-weight: bold;
+}
+
+.menu-html .submenu li:hover
+{
+background-color: rgb(66, 175, 218);} 
+
+.menu-java .submenu li:hover
+{
+background-color: rgb(66, 175, 218);
+}
+
+.menu-sql .submenu li:hover
+{
+background-color: rgb(66, 175, 218);
+}
+
+.menu-mission .submenu li:hover
+{
+background-color: rgb(66, 175, 218);
+}

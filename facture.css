@@ -1,0 +1,45 @@
+header
+{
+    background-color: whitesmoke;
+}
+h1
+{
+text-align: center;    
+font-weight: bold;
+font-size: large;
+}
+h2
+{   
+font-weight: bold;
+font-size: large;
+}
+.c1
+{
+    background-color: aqua;
+    border: 2px;
+    width: 50%;
+    float: right;
+}
+.c2
+{
+    background-color: aqua;
+    border: 2px;
+    width: 50%;
+}
+.c3
+{
+    background-color: aqua;
+    border: 2px solid skyblue;
+    width: 50%;
+    float: right;
+} 
+.c4
+{
+    background-color: aqua;
+    border: 2px solid skyblue;
+    width: 50%;
+}
+section
+{
+    color: aqua;
+}

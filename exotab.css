@@ -1,0 +1,50 @@
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #003057;
+    text-shadow: 1px 1px 1px black, 0 0 3px blue, 0 0 2px blue;
+}
+button {
+  background-color: #F4FAFF;
+  border: 2px solid #003057;
+  border-radius: 30px;
+  box-shadow: #003057 4px 4px 0 0;
+  color: #003057;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 600;
+  font-size: 27px;
+  padding: 0 18px;
+  line-height: 50px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  text-decoration: none;
+  text-shadow: 1px 1px 1px #158EA9, 0 0 1px blue, 0 0 1px blue;
+  user-select: none;
+  transition: 0.1s;
+  width: 400px;
+  margin: 10px;
+  
+}
+
+
+button:hover {
+    background-color: #BAE0FF;
+    transform: translate(4px, 4px);
+    box-shadow: none;
+    transition: 0.3s;
+}
+#container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 50px auto;
+    border: 1px solid #f1f1f1;
+}
+
+@media (min-width: 770px) {
+  button {
+    width: 500px;
+    padding: 0 30px;
+  }
+}
